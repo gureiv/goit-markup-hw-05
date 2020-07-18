@@ -506,12 +506,14 @@ p {
   transform: translateY(0);
 }
 
-.our-photo-name:hover,
-.our-photo-name:focus {
-  border: 1px solid #eeeeee;
-  box-sizing: border-box;
+.our-photo-name:hover {
   box-shadow: 1px 4px 6px rgba(0, 0, 0, 0.16), 0px 4px 4px rgba(0, 0, 0, 0.06),
     0px 1px 1px rgba(0, 0, 0, 0.12);
+}
+.our-photo-name:focus {
+  background: #ffffff;
+  border: 1px solid #eeeeee;
+  box-sizing: border-box;
 }
 .portfolio-poster {
   display: block;
