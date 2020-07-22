@@ -501,7 +501,7 @@ p {
   margin-top: 0;
 }
 .our-photo:hover .text-overlay,
-.our-photo:focus .text-overlay {
+.our-photo:focus-within .text-overlay {
   transform: translateY(0);
 }
 
