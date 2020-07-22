@@ -479,6 +479,8 @@ p {
 }
 .text-overlay {
   position: absolute;
+  min-width: 322px;
+  padding: 63px 24px;
   left: 0;
   top: 0;
   width: 100%;
@@ -498,22 +500,18 @@ p {
   margin-bottom: 0;
   margin-top: 0;
 }
-.text-overlay-port {
-  min-width: 322px;
-  padding: 63px 24px;
-}
-.our-photo:hover .text-overlay {
+.our-photo:hover .text-overlay,
+.our-photo:focus .text-overlay {
   transform: translateY(0);
 }
 
-.our-photo-name:hover {
-  box-shadow: 1px 4px 6px rgba(0, 0, 0, 0.16), 0px 4px 4px rgba(0, 0, 0, 0.06),
-    0px 1px 1px rgba(0, 0, 0, 0.12);
-}
+.our-photo-name:hover,
 .our-photo-name:focus {
   background: #ffffff;
   border: 1px solid #eeeeee;
   box-sizing: border-box;
+  box-shadow: 1px 4px 6px rgba(0, 0, 0, 0.16), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    0px 1px 1px rgba(0, 0, 0, 0.12);
 }
 .portfolio-poster {
   display: block;
